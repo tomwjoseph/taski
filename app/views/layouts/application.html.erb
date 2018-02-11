@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Taski</title>
+    <%= csrf_meta_tags %>
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+
+  	<%= render "shared/nav" %>
+
+    <%= yield %>
+  </body>
+  <p>@TomWJoseph Inc. LTD</p>
+  <%= image_tag("logos/jack1.jpg", width: "150px") %>
+
+</html>
